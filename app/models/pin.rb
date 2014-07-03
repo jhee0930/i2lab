@@ -1,2 +1,3 @@
-class Pin < ActiveRecord::Base
+class Order < ActiveRecord::Base
+  belongs_to :customer
 end
